@@ -6,4 +6,12 @@
 package com.furniture.jdp;
 
 public class furnitureItem {
+    static final int DISCOUNT = 5;
+    private int furnitureCode;
+    private String furnitureType;
+    private char furnitureGrade;
+    private String furnitureColor;
+    private String furnitureUsage;
+    private float furniturePrice;
+    
 }
