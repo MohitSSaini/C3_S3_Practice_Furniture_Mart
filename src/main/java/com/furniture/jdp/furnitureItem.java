@@ -40,4 +40,28 @@ public class furnitureItem {
     public float getFurniturePrice ( ) {
         return furniturePrice;
     }
+    
+    public void setFurnitureCode ( int furnitureCode ) {
+        this.furnitureCode = furnitureCode;
+    }
+    
+    public void setFurnitureType ( String furnitureType ) {
+        this.furnitureType = furnitureType;
+    }
+    
+    public void setFurnitureGrade ( char furnitureGrade ) {
+        this.furnitureGrade = furnitureGrade;
+    }
+    
+    public void setFurnitureColor ( String furnitureColor ) {
+        this.furnitureColor = furnitureColor;
+    }
+    
+    public void setFurnitureUsage ( String furnitureUsage ) {
+        this.furnitureUsage = furnitureUsage;
+    }
+    
+    public void setFurniturePrice ( float furniturePrice ) {
+        this.furniturePrice = furniturePrice;
+    }
 }
