@@ -1,0 +1,11 @@
+//Attributes
+furniture code
+furniture type
+furniture grade
+furniture color
+furniture usage
+furniture price
+
+
+//Behavior
+Calculate Discount
