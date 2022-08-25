@@ -14,4 +14,6 @@ public class furnitureItem {
     private String furnitureUsage;
     private float furniturePrice;
     
+    public furnitureItem ( ) {
+    }
 }
