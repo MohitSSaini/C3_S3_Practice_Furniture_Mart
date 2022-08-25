@@ -16,4 +16,28 @@ public class furnitureItem {
     
     public furnitureItem ( ) {
     }
+    
+    public int getFurnitureCode ( ) {
+        return furnitureCode;
+    }
+    
+    public String getFurnitureType ( ) {
+        return furnitureType;
+    }
+    
+    public char getFurnitureGrade ( ) {
+        return furnitureGrade;
+    }
+    
+    public String getFurnitureColor ( ) {
+        return furnitureColor;
+    }
+    
+    public String getFurnitureUsage ( ) {
+        return furnitureUsage;
+    }
+    
+    public float getFurniturePrice ( ) {
+        return furniturePrice;
+    }
 }
