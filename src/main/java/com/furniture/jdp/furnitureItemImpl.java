@@ -21,6 +21,6 @@ public class furnitureItemImpl {
         System.out.println ( "FurnitureUsage = " + input.getFurnitureUsage ( ) );
         input.setFurniturePrice ( 1500.00f );
         System.out.println ( "Furniture Price = " + input.getFurniturePrice ( ) );
-        System.out.println ( "Discount Price is = " + input.calculateDiscount ( ) );
+        input.calculateDiscount ( );
     }
 }

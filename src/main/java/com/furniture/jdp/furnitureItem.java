@@ -73,14 +73,13 @@ public class furnitureItem {
      *
      * @return The discount amount is being returned.
      */
-    public float calculateDiscount ( ) {
-        float discount = 0.0f;
-        float furniturePrice = 1500f;
+    public void calculateDiscount ( ) {
         String furnitureGrade = getFurnitureGrade ( );
         String type = getFurnitureUsage ( );
-        if ( furnitureGrade.equals ( "Grade1" ) && type.equals ( "Outdoor" ) ) {
-            discount = furniturePrice - ( ( DISCOUNT * furniturePrice ) / 100 );
+        if ( furnitureGrade == "Grade1" && furnitureUsage == "OutDoor" ) {
+            float discountedPrice = furniturePrice - ( ( DISCOUNT * furniturePrice ) / 100 );
+            System.out.println ( "Discounted Price is $" + discountedPrice );
         }
-        return discount;
+    
     }
 }
